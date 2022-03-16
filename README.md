@@ -1,6 +1,6 @@
 # Health Insurance Cross-Sell.
 
-<img src="https://garagem360.com.br/wp-content/uploads/2021/06/Linha-RS-scaled.jpg" alt="drawing" width="70%"/>
+<img src="https://media.istockphoto.com/photos/laptop-showing-business-graphs-at-the-office-picture-id490178094?b=1&k=20&m=490178094&s=170667a&w=0&h=rRO8CjSXAi9QubueIC4PyE81G-kAVjGTtJUS-pPBKqQ=" alt="drawing" width="70%"/>
 
 ## Description: 
 
@@ -10,22 +10,25 @@ This project aims to order a potential client list by propensity score.
 
 ## 3.0. Solution Strategy:
 
-### 3.1. Descrição dos Dados: 
-Checagem do dataset por inteiro, como sua dimensão, NA's, tipos de variáveis... Por final, uma descrição estatística.
+### 3.1. Data Description: 
+
 ### 3.2. Feature Engineering: 
-Etapa pré análise exploratória. Criação das hipóteses com finalidade de criar as features necessárias para a análise.
-### 3.3. Análise Exploratória:
-Exploração dos dados com foco no entendimento das métricas do negócio, geração de insights e correlação de variáveis.
-### 3.4. Preparação dos Dados: 
-Normalização, rescaling e transformação dos dados para os modelos de Machine Learning.
-### 3.5. Seleção de Variáveis: 
-Utilização do algoritmo Boruta, em conjunto com o conhecimento obtido na análise exploratória, para selecionar as variáveis/features mais importantes para os modelos.
-### 3.6. Modelos de Machine Learning:
-Aplicação dos modelos de Machine Learning com Cross-Validation para definir o que apresenta melhor resultado.
-### 3.7. Tradução dos erros: 
-Conversão dos erros do modelo escolhido para resultados financeiros de negócio.
-### 3.8. Deploy:
-Deploy do script na nuvem Heroku para tornar o modelo acessível em outras máquinas e construção do bot no telegram.
+
+### 3.3. Data Filtering:
+
+### 3.4. Exploratory Data Analysis:
+
+### 3.5. Data Preparation: 
+
+### 3.6. Feature Selection: 
+
+### 3.7. Machine Learning Modelling:
+
+### 3.8. Hyperparameter Fine Tunning: 
+
+### 3.9. Business Results:
+
+### 3.10. Deploy:
 
 ## 4.0. Top 3 Data Insights:
 
@@ -44,12 +47,6 @@ Dentro de 11 hipóteses validadas e desvalidadas, essas são as que mais geraram
 **FALSA**. Lojas com competidores recentes tem um pico de vendas, e com o tempo as vendas abaixam e se tornam mais constantes.
 
 ## 5.0. Machine Learning Model Applied:
-
-Com a solução elaborada no projeto, a rede Rossmann tem como esperada a receita de aproximadamente $ 285,059,456.00 nas próximas seis semanas, com seus respectivos pior/melhor cenários devido a erros do algoritmo calculados abaixo.
-
-<img src="img/business_results.png" alt="drawing" width="40%"/>
-
-A previsão individual de cada loja pode ser consultada pelo Telegram, conforme a [demonstração](https://youtube.com/shorts/iXpcF_Y6k0g?feature=share). Com isso, resolvemos nossa questão de negócio, visto que o CFO pode, a qualquer momento, consultar a receita que está por vir para cacular o budget da reforma para cada uma das lojas.
 
 ## 6.0. Machine Learning Model Performance:
 
