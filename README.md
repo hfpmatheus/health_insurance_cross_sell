@@ -8,6 +8,8 @@ This project aims to order a potential client list by propensity score.
 
 ## 2.0. Business Problem:
 
+Nosso cliente é uma empresa de seguros que atualmente tem apenas o seguro de saúde como produto. Essa empresa fez uma pesquisa com seus clientes para saber quais desses tinham interesse em comprar um segundo produto, o seguro de veículos. O problema que enfrentam agora é ordenar a base de dados com todos esses clientes de acordo com a maior propensão de compra, 
+
 ## 3.0. Solution Strategy:
 
 ### 3.1. Data Description: 
