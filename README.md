@@ -2,7 +2,7 @@
 
 <img src="https://media.istockphoto.com/photos/laptop-showing-business-graphs-at-the-office-picture-id490178094?b=1&k=20&m=490178094&s=170667a&w=0&h=rRO8CjSXAi9QubueIC4PyE81G-kAVjGTtJUS-pPBKqQ=" alt="drawing" width="70%"/>
 
-## Description: 
+## 1.0. Description: 
 
 This project aims to order a potential client list by propensity score.
 
