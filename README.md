@@ -118,6 +118,8 @@ Considering the costs with sales team using the baseline model ( randomly ordere
 
 Given the result of the project, it can be said that for a first cycle of the CRISP-DM methodology we were successful, delivering fast and effective results through a model capable of sorting a customer base by purchase propensity and returning this prediction in a table from Google Sheets.
 
+<img src="img/design_pa004.png" alt="drawing" width="50%"/>
+
 ## 9.0. Next Steps to improve:
 
 - Discover more relevant features.
