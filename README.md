@@ -84,17 +84,45 @@ Deployed the model to a production environment for that other people can use and
 - XGBoost
 - LightGBM
 
-## 6.0. Machine Learning Model Performance as Business Results:
+## 6.0. Machine Learning Model Performance:
+
+The model chosen for production was XGBoost, given its success in terms of metrics and memory.
+
+### 6.1. Cumulative Gains Curve:
+
+<img src="img/cumulative_gains.png" alt="drawing" width="50%"/>
+
+The cumulative gains curve is an evaluation curve that assesses the performance of the model and compares the results with the random pick. It shows the percentage of targets reached when considering a certain percentage of the population with the highest probability to be target according to the model.
 
 ## 7.0. Business Results:
 
+### 7.1. At K metrics:
+
+<img src="img/metrics.png" alt="drawing" width="50%"/>
+
+**Precision at K Meaning**: Within the first 20.000 customers sorted according to highest propensity to purchase, 31% of them (6,000) are really interested.
+
+**Recall at K Meaning**: Within the first 20.000 customers sorted by highest propensity to purchase, are 83% of the total interested.
+
+### 7.2. Lift Curve:
+
+<img src="img/lift_curve.png" alt="drawing" width="50%"/>
+
+**Lift Curve Meaning**: The Lift Curve says how many times our model it's better than the baseline.
+
+Considering the costs with sales team using the baseline model ( randomly ordered ) as **X**, we have that using the XGBoost our cost declines to X/Y.
+
+**Example**: To reach 40% of our customers base using the baseline model we spend X dollars, let's say $1000. If using the XGBoost one we would spend $1000/2 = $500 ( because the graph shows that in this point the XGBoost model it's 2 times better than the baseline. In conclusion, our cost would decline 50%.
+
 ## 8.0. Conclusion:
+
+Given the result of the project, it can be said that for a first cycle of the CRISP-DM methodology we were successful, delivering fast and effective results through a model capable of sorting a customer base by purchase propensity and returning this prediction in a table from Google Sheets.
 
 ## 9.0. Next Steps to improve:
 
-- Pesquisar mais afundo o negócio pra descobrir features que possam ser mais relevantes
-- Lista de sobrevivencia
+- Discover more relevant features.
+- Survival Analysis to estimate how many emails or calls until a customer purchase the vehicle insurance.
 
 ## 10.0. References:
 
-- Os datasets utilizados se encontram no [Kaggle](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
+- [Kaggle](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
