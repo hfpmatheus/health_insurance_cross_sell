@@ -24,7 +24,7 @@ Here I focused on seeing the quantitity and quality of the data. Aimed to answer
 
 Tried to derivate new features that make business sense from the existing ones.
 
-### 3.4. Data Filtering: Filtragem dos dados visando algumas métricas do negócio.
+### 3.4. Data Filtering:
 
 Consists in filtering data considering business. That step was not needed for this project. 
 
